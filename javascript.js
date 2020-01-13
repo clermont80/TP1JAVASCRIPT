@@ -103,6 +103,32 @@ function affichesoustraction()
 
 function jourdelasemaine()
 {
-    
+    var now= new Date();
+    var queljour= now.getDay();
+
+    switch(queljour) 
+    {
+        case(0):
+          alert("Dimanche");
+          break;
+        case(1):
+         alert("Lundi");
+          break;
+        case(2):
+         alert("Mardi");
+          break;
+        case(3):
+         alert("Mercredi");
+         break;
+        case(4):
+         alert("Jeudi");
+         break;
+        case(5):
+         alert("Vendredi");
+          break;
+        case(6):
+         alert("Samedi");
+         break;
+    }
 }
 

@@ -15,8 +15,18 @@
 <button onclick="boucleremplissage()">boucle1</button>
 <button onclick="boucleremplissage2()">boucle2</button>
 <button onclick="affichesoustraction()">soustraction tab</button>
+<button onclick="jourdelasemaine()">jour</button>
 
 
+<div onmouseover="this.style.color='red'" onclick="this.style.color='lime'" ondblclick="this.style.color='navy'">
+<p>phrase</p>
+</div>
+
+<div onclick="this.style.margin='50%'">
+
+<p this.style.width='400px'> </p>
+
+</div>
 
 </body>
 </html>
