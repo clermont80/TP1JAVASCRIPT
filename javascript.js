@@ -135,23 +135,23 @@ function jourdelasemaine()
 
 function doMouseOver()
 {
-    if(id=="tag1")
-    {
-        document.getElementById("tag1").src = "tag-1036811_640.jpg";
-    }
-    else 
-    {
-        
-    }
+    
+    document.getElementById("tag1").src = "tag-1036811_640.jpg";
+   
 }
     
 
 function doMouseOut()
 {
+   
+    document.getElementById("tag1").src = "tag.jpg";
     
-    if(id=="tag1")
-    {
-        document.getElementById("tag1").src = "tag.jpg";
-    }
 }
 
+function modif_paragraphe()
+{
+    document.getElementById("h1").innerHTML='corrigé';
+    document.getElementById("h1").style
+    ='italic';
+    
+}

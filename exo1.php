@@ -34,6 +34,9 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
   <img src="tag.jpg" width="128" height="128" alt="img" id="tag1" onmouseover="doMouseOver()" onmouseout="doMouseOut()">
 </p>
 
+<p onmouseover= "innerHTML='nan c faux'" onmouseout="innerHTML='je suis gentil'"> je suis gentil</p>
+
+<h1 id="h1" onmouseover="modif_paragraphe()">Original</h1>
 
 </body>
 </html>
