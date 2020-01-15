@@ -133,3 +133,25 @@ function jourdelasemaine()
     }
 }
 
+function doMouseOver()
+{
+    if(id=="tag1")
+    {
+        document.getElementById("tag1").src = "tag-1036811_640.jpg";
+    }
+    else 
+    {
+        
+    }
+}
+    
+
+function doMouseOut()
+{
+    
+    if(id=="tag1")
+    {
+        document.getElementById("tag1").src = "tag.jpg";
+    }
+}
+
