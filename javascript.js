@@ -58,9 +58,10 @@ function boucleremplissage()
     for(indice=0;indice<3;indice++)
     {
         tab2[indice] = indice*indice;
+        alert(tab2[indice]);
     }
 
-    alert(tab2);
+    
     
 }
 

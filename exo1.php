@@ -22,11 +22,11 @@
 <p>phrase</p>
 </div>
 
-<div onclick="this.style.margin='50%'">
 
-<p this.style.width='400px'> </p>
 
-</div>
+<p onclick="this.style.margin='50%'" ondblclick="this.style.margin='0%'" this.style.width='500px'> 
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit 
+</p>
 
 </body>
 </html>
