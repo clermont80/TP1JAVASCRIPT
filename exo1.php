@@ -38,5 +38,10 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 <h1 id="h1" onclick="centrage_h1()" onmouseover="modif_paragraphe()" onmouseout="modif_paragraphe2()">Original</h1>
 
+<button  onclick="ouvreFenetre()">Ouvrefenetre</button>
+<button  onclick="bougefenetre()">bougefenetre</button>
+<button  onclick="bougefenetrecurrent()">bougefenetre2</button>
+<button  onclick="reduitfenetre()">reduitfenetre</button>
+
 </body>
 </html>

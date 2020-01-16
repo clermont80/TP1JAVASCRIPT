@@ -168,3 +168,23 @@ function centrage_h1()
     var centrage = document.getElementById("h1");
     centrage.setAttribute("align","center");
 }
+
+function ouvreFenetre()
+{
+  maFenetre=window.open("","maFenetre","width=200,height=100");
+}
+
+function bougefenetre()
+{
+     maFenetre.moveTo(50, 50);
+}
+
+function bougefenetrecurrent()
+{
+     maFenetre.moveBy(50, 50);
+}
+
+function reduitfenetre()
+{
+     maFenetre.resizeBy(50, 50);
+}
