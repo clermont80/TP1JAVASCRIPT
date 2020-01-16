@@ -36,7 +36,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 <p onmouseover= "innerHTML='nan c faux'" onmouseout="innerHTML='je suis gentil'"> je suis gentil</p>
 
-<h1 id="h1" onmouseover="modif_paragraphe()">Original</h1>
+<h1 id="h1" onclick="centrage_h1()" onmouseover="modif_paragraphe()" onmouseout="modif_paragraphe2()">Original</h1>
 
 </body>
 </html>

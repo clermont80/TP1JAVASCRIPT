@@ -151,7 +151,20 @@ function doMouseOut()
 function modif_paragraphe()
 {
     document.getElementById("h1").innerHTML='corrigé';
-    document.getElementById("h1").style
-    ='italic';
+    document.getElementById("h1").style.fontStyle='italic';
     
+}
+
+function modif_paragraphe2()
+{
+    document.getElementById("h1").innerHTML='Original';
+    document.getElementById("h1").style.fontStyle='normal';
+    
+    
+}
+
+function centrage_h1()
+{
+    var centrage = document.getElementById("h1");
+    centrage.setAttribute("align","center");
 }
