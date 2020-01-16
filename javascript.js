@@ -188,3 +188,11 @@ function reduitfenetre()
 {
      maFenetre.resizeBy(50, 50);
 }
+
+function affiche_properties()
+{
+    alert("Vous utilisez " + navigator.appName);
+    alert("Vous utilisez " + navigator.appVersion);
+    alert("Vous utilisez " + navigator.cookieEnabled);
+    alert("Vous utilisez " + navigator.language);
+}

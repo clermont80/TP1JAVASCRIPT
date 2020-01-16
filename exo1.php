@@ -43,5 +43,9 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 <button  onclick="bougefenetrecurrent()">bougefenetre2</button>
 <button  onclick="reduitfenetre()">reduitfenetre</button>
 
+<div ondblclick="affiche_properties()" this.style.width='100px'>
+<p> ici ça affiche les propriétés</p>
+</div>
+
 </body>
 </html>
