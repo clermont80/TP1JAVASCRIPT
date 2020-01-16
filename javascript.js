@@ -196,3 +196,20 @@ function affiche_properties()
     alert("Vous utilisez " + navigator.cookieEnabled);
     alert("Vous utilisez " + navigator.language);
 }
+
+function init()
+{
+    var textinput = document.getElementsByName("votrenom");
+    var envoi = document.getElementsByName("envoi");
+    var clear = document.getElementsByName("clear");
+}
+
+function submit()
+{
+    write(textinput);
+}
+
+function remiseazero()
+{
+    textinput.document.write("");
+}

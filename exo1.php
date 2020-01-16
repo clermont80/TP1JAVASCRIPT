@@ -34,7 +34,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
   <img src="tag.jpg" width="128" height="128" alt="img" id="tag1" onmouseover="doMouseOver()" onmouseout="doMouseOut()">
 </p>
 
-<p onmouseover= "innerHTML='nan c faux'" onmouseout="innerHTML='je suis gentil'"> je suis gentil</p>
+<p onmouseover= "innerHTML='nan c faux'" onmouseout="innerHTML='je suis gentil'">je suis gentil</p>
 
 <h1 id="h1" onclick="centrage_h1()" onmouseover="modif_paragraphe()" onmouseout="modif_paragraphe2()">Original</h1>
 
@@ -46,6 +46,16 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 <div ondblclick="affiche_properties()" this.style.width='100px'>
 <p> ici ça affiche les propriétés</p>
 </div>
+
+<form>
+  <label> Votre nom ? : </label>
+  <input type="text" id="name" name="votrenom">
+  <p></p>
+  <input onclick="submit()" type="submit" name="envoi"value="Envoyer"> 
+  <input onclick="remiseazero()" type="reset" name="clear" value="Reset">
+
+
+</form>
 
 </body>
 </html>
