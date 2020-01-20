@@ -46,16 +46,15 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 <div ondblclick="affiche_properties()" this.style.width='100px'>
 <p> ici ça affiche les propriétés</p>
 </div>
+<body onload="init()"> 
 
-<form>
+<form id="myform" action="" name="form">
   <label> Votre nom ? : </label>
-  <input type="text" id="name" name="votrenom">
-  <p></p>
-  <input onclick="submit()" type="submit" name="envoi"value="Envoyer"> 
-  <input onclick="remiseazero()" type="reset" name="clear" value="Reset">
-
-
+  <input type="text" id="name">
+  <button id="envoi">envoyer</button>
+  <button id="clear">rezet</button>
 </form>
 
+</body>
 </body>
 </html>

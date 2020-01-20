@@ -199,17 +199,26 @@ function affiche_properties()
 
 function init()
 {
-    var textinput = document.getElementsByName("votrenom");
-    var envoi = document.getElementsByName("envoi");
-    var clear = document.getElementsByName("clear");
+    
+    var envoi = document.getElementsById("envoi");
+    var clear = document.getElementsById("clear");
+
+    envoi.onclick=fctSubmit;
+    clear.onclick=remiseazero;
+   
 }
 
-function submit()
+function fctSubmit(textinput)
 {
-    write(textinput);
+  
+    alert(textinput.value);
+    document.getElementById("myForm").submit();
+    
 }
 
-function remiseazero()
+function remiseazero(textinput)
 {
+    var textinput = document.getElementsById("name");
+    alert("texte effacé");
     textinput.document.write("");
 }
